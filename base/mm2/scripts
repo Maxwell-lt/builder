@@ -1,0 +1,6 @@
+//Scripts for Modular Mayhem Reloaded.
+
+
+
+// Allows Galena to be seen as lead.
+<ore:blockGalena>.mirror(<ore:blockLead>);
