@@ -26,14 +26,14 @@ in
 rec {
 
   packs = {
-    e25 = buildPack e25;
+    bc1 = buildPack bc1;
   };
 
 
-  e25 = {
-    name = "TheDawnofCow";
-    tmuxName = "e25";
-    description = "E25: Artocarpus integrifolia Et monumentum";
+  bc1 = {
+    name = "LibreCirculus";
+    tmuxName = "bc1";
+    description = "BC1: Libre Circulus";
     ram = "12000m";
     port = 25565;
     prometheusPort = 1223;
@@ -54,7 +54,7 @@ rec {
       ./base/client
     ];
     manifests = [
-      ./manifest/e24.nix
+      ./manifest/bc1.nix
     ];
     blacklist = [
     ];
@@ -63,8 +63,8 @@ rec {
 
   ServerPack = buildServerPack rec {
     inherit packs;
-    hostname = "madoka.brage.info";
-    urlBase = "https://madoka.brage.info/pack/";
+    hostname = "minecraft.maxwell-lt.dev";
+    urlBase = "https://minecraft.maxwell-lt.dev/pack/";
   };
 
   # To use:
