@@ -44,10 +44,12 @@ rec {
     extraDirs = [
       ./base/e24
       ./base/erisia
+      ./base/bc1
     ];
     extraServerDirs = [
       ./base/server
       ./base/e24-server
+      ./base/bc1-server
     ];
     extraClientDirs = [
       resources_12

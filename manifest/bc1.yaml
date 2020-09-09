@@ -84,3 +84,11 @@ mods:
 - name: 'tinkers-construct'
 - name: 'tinkers-tool-leveling'
 - name: 'mantle'
+- name: 'cosmetic-armor-reworked'
+- name: 'iron-chests'
+- name: 'title-changer'
+- name: 'dark-utilities'
+- name: 'bookshelf'
+- name: 'cyclic'
+- name: 'blood-magic'
+  maturity: beta
