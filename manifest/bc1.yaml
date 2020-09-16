@@ -92,3 +92,7 @@ mods:
 - name: 'cyclic'
 - name: 'blood-magic'
   maturity: beta
+- name: 'pams-harvestcraft'
+- name: 'just-enough-harvestcraft'
+- name: 'cooking-for-blockheads'
+- name: 'farming-for-blockheads'
